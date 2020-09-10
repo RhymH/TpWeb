@@ -3,7 +3,7 @@
 .text-center{
 	
 	margin: auto;
-	margin-top:10em; 
+	margin-top:2em; 
 	max-width:30em;
 	background: @bg-form;
 	
