@@ -1,0 +1,24 @@
+
+
+.text-center{
+	
+	margin: auto;
+	margin-top:10em; 
+	max-width:30em;
+	background: @bg-form;
+	
+}
+
+.form-signin{
+	background-color: #F0F0FF;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.civilite{
+	display: inline;
+}
+
+.form-control{
+	margin-top: 0.5em;
+}

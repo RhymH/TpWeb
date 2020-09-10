@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Titre de la page</title>
+	<link rel="stylesheet" href="style.css">
+	  
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+	<!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	
+	<!-- LESS -->
+	<link rel="stylesheet/less" type="text/css" href="style.less" />
+  
+</head>
+<body class="text-center">
+
+	<form class="form-signin">
+		<p><h1>TP01</h1></p>
+	
+		<input type="text" id="lastname" class="form-control" name="lastname" placeholder="nom">
+		<input type="text" id="firstname" class="form-control" name="firstname" placeholder="prenom">
+		
+		
+		<input type="text" id="adress" class="form-control" name="adress" placeholder="adresse">
+		<input type="text" id="postal" class="form-control" name="postal" placeholder="CP" pattern="[0-9]{5}">
+		<input type="text" id="city" class="form-control" name="city" placeholder="ville">
+		
+		<input type="tel" id="phone" class="form-control" name="phone" placeholder="Telephone" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}">
+		
+		<input type="email" id="email" class="form-control" name="email" placeholder="email">
+		<br>
+		<div id="civilite" class="row">
+			<div class="col">
+				<label class="civilite" for="title">Civilité</label><br>
+			</div>
+			<div class="col">
+				<input class="civilite" type="radio" id="male" name="gender" value="homme">
+				<label class="civilite" for="male">M.</label><br>
+			</div>
+			<div class="col">
+				<input class="civilite" type="radio" id="female" name="gender" value="femme">
+				<label class="civilite" for="female">Mme.</label>
+			</div>
+				
+		</div>
+		<br>
+		<input type="password" id="password" class="form-control" name="password" placeholder="mot de passe">
+		<br>
+		<input type="submit" class="btn btn-lg btn-primary btn-block" value="LogIn">
+    </form>
+
+
+
+
+</body>
+</html>
